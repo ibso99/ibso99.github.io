@@ -280,24 +280,13 @@ a:hover {
   padding: 1.4rem;
 }
 
-/* .portrait {
-  width: 120px;
-  height: 120px;
-  border-radius: 32px;
-  display: grid;
-  place-items: center;
-  margin-bottom: 1.4rem;
-  background: linear-gradient(135deg, rgba(56, 189, 248, 0.95), rgba(167, 139, 250, 0.92), rgba(45, 212, 191, 0.92));
-  color: #06111f;
-  font-size: 2.7rem;
-  font-weight: 900;
-} */
 .portrait {
   width: 140px;
   height: 140px;
-  border-radius: 50%;
+  aspect-ratio: 1;
   display: block;
   margin-bottom: 1.4rem;
+  border-radius: 50%;
   object-fit: cover;
   object-position: center;
   border: 3px solid var(--line);
